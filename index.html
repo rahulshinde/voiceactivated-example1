@@ -91,21 +91,22 @@
 </main>
 
 <aside class="side_bar">
-  <div id="instructions">
+  <button id="button" onclick="toggleStartStop()"></button>
+  <div class="box" id="instructions">
     <h2 id="instructions_heading">Instructions</h1>
     <ul>
-      <li>First: 'Select (Word)(Number)'</li>
-      <li>Then: select a color 'red', 'green', or 'blue'</li>
+      <li>First, to select a color say: 
+        <br>'Select (Word)(Number)'</li>
+      <li>Then: select a color by saying:
+        <br> 'red', 'green', or 'blue'</li>
     </ul>
   </div>
 
-  <div id="input">
+  <div class="box" id="input">
     <h2 id="input_heading">Input</h1>
     <p id='input_text'></p>
   </div>
 </aside>
-
-<button id="button" onclick="toggleStartStop()"></button>
 
 <script type="text/javascript" src="js/main.js"></script>
 </body>

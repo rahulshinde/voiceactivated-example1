@@ -61,7 +61,7 @@ recognition.onresult = function (event) {
 
 function reset() {
   recognizing = false;
-  button.innerHTML = "Click to Paint";
+  button.innerHTML = "Click to Start Painting";
 }
 
 function toggleStartStop() {
@@ -71,7 +71,7 @@ function toggleStartStop() {
   } else {
     recognition.start();
     recognizing = true;
-    button.innerHTML = "Stop Recording";
+    button.innerHTML = "Stop Painting (Recording)";
   }
 }
 
