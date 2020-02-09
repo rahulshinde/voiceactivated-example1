@@ -5,8 +5,12 @@ body{
   font-family: sans-serif;
 }
 
-h2{
-  font-weight: normal;
+body.guides_hidden .draw_square{
+  border: none;
+}
+
+body.guides_hidden .draw_square span{
+  display: none;
 }
 
 #button{
@@ -23,6 +27,7 @@ h2{
   display: block;
   margin: 4rem 0 0 calc(40% - 4rem); 
   width: 60%;
+  border: 1px solid #000;
 }
 
 .row_container{
@@ -33,7 +38,7 @@ h2{
   position: relative;
   width: 16.25%;
   padding-bottom: 10vh;
-  border: 1px solid #000;
+  border: 1px solid;
 }
 
 .draw_square.selected{
@@ -64,7 +69,7 @@ h2{
 
 .box{
   border-top-right-radius: 2rem;
-  border: 1px solid;
+  border: 2px solid;
   margin-bottom: 2rem;
 }
 
