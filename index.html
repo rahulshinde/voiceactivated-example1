@@ -7,7 +7,49 @@
 </head>
 <body>
 
+<aside class="side_bar">
+  <h1>
+    Paint with your voice.
+  </h1>
+  <!-- <button id="button" onclick="toggleStartStop()"></button> -->
+  <div class="box" id="instructions">
+    <h2 id="instructions_heading">Commands/Instructions</h2>
+    <ul>
+      <li>To set a color say: 
+        <br>'(Word) (Number) (Color)'</li>
+      <li>Current color options:
+        <br> 'red', 'green', 'blue', 'yellow', 'magenta', 'aqua', 'black'</li>
+      <li>'Show/Hide Guides'</li>
+    </ul>
+  </div>
+
+  <div class="box" id="input">
+    <h2 id="input_heading">Input</h1>
+    <p id='input_text'></p>
+  </div>
+</aside>
+
 <main id="square_container">
+  <div class="column_markers">
+    <span>alpha</span>
+    <span>beta</span>
+    <span>charlie</span>
+    <span>delta</span>
+    <span>eagle</span>
+    <span>foxtrot</span>
+    <span>golf</span>
+    <span>hotel</span>
+  </div>
+  <div class="row_markers">
+    <span>1</span>
+    <span>2</span>
+    <span>3</span>
+    <span>4</span>
+    <span>5</span>
+    <span>6</span>
+    <span>7</span>
+    <span>8</span>
+  </div>
   <section class="row_container">
     <div class="draw_square" id="a1"><span>alpha 1</span></div>
     <div class="draw_square" id="a2"><span>alpha 2</span></div>
@@ -89,25 +131,6 @@
     <div class="draw_square" id="h8"><span>hotel 8</span></div>
   </section>
 </main>
-
-<aside class="side_bar">
-  <!-- <button id="button" onclick="toggleStartStop()"></button> -->
-  <div class="box" id="instructions">
-    <h2 id="instructions_heading">Commands/Instructions</h2>
-    <ul>
-      <li>To set a color say: 
-        <br>'(Word) (Number) (Color)'</li>
-      <li>Current color options:
-        <br> 'red', 'green', 'blue', 'yellow', 'magenta', 'aqua', 'black'</li>
-      <li>'Show/Hide Guides'</li>
-    </ul>
-  </div>
-
-  <div class="box" id="input">
-    <h2 id="input_heading">Input</h1>
-    <p id='input_text'></p>
-  </div>
-</aside>
 
 <!-- <script type="text/javascript" src="js/main.js"></script> -->
 <script type="text/javascript" src="js/annyang.js"></script>
